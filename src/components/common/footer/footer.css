@@ -1,0 +1,103 @@
+footer {
+  background-color: rgb(24, 24, 24);
+  color: #fff;
+  padding: 50px 0;
+  margin-top: 50px;
+}
+
+footer .container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 30px;
+  
+}
+
+footer .logo p {
+  margin: 20px 0;
+}
+
+footer h3 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  font-weight: 500;
+  margin-top: 30px;
+}
+
+footer .item {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+footer .item img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+}
+
+footer .item p {
+  padding: 10px 20px;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center ;
+}
+
+footer ul li {
+  margin-bottom: 20px;
+  padding-bottom: 5px;
+}
+
+.legal {
+  padding: 15px;
+  background-color: #000;
+  color: grey;
+  border-top: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.legal i {
+  color: red;
+}
+
+.smile {
+  color: yellow !important;
+}
+
+
+.siteLink{
+  color: white;
+  font-weight: 500;
+}
+.siteLink:hover{
+  color: dodgerblue;
+  font-weight: 500;
+}
+.footer-links{
+  display: flex;
+}
+.footer-links a{
+  color: white;
+  font-size: 18px;
+  margin-right: 30px;
+  margin-top: 10px;
+}
+
+.social {
+  color: dodgerblue;
+  font-size: 42px;
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+.social i:hover {
+  color: white;
+}
+.social-link{
+  margin-right: 20px;
+}
+@media screen and (max-width: 768px) {
+  footer .container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

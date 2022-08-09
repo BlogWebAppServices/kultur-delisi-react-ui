@@ -1,0 +1,36 @@
+.contact-container{
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.contact-header{
+    color: dodgerblue;
+    
+    margin: 20px;
+}
+.contact-header h1{
+    font-size: 28px;
+}
+.contact-info h1{
+    font-size: 28px;
+    color: tomato;
+    max-width: 500px;
+    margin: 20px;
+}
+.contact-info h2{
+    color: tomato;
+    max-width: 500px;
+    margin: 20px;
+    font-size: 22px;
+}
+.contact-info span{
+    font-size: 16px;
+    font-weight: bold;
+    border-style: solid;
+    border-top:0px;
+    border-left:0px;
+    border-right:0px;
+    border-color: tomato;
+    margin-left: 20px;
+}
+

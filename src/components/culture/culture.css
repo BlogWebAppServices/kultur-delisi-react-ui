@@ -1,0 +1,38 @@
+main .categories-container{
+    margin-top:120px;
+}
+.row{
+    width: 100% !important; 
+}
+.card{
+    margin-top: 20px;
+    max-height: 410px;
+}
+.card-img-top{
+    max-height: 140px;
+}
+.rs-panel{
+    background-color: dodgerblue;
+    margin-right: 20px;
+    margin-top: 35px;
+}
+.collapsed{
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+}
+.headerContent{
+    color: white;
+    font-size: 16px;
+}
+.pagination-position{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+}
+.go-detail a{
+    float: right;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    
+}

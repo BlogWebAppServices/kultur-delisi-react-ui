@@ -1,0 +1,39 @@
+/* custom css */
+button:focus,
+.navbar-toggler:focus,
+.input-group .btn:focus,
+input.form-control:focus{
+    outline: 0;
+    box-shadow: none;
+}
+
+/* Header Css */
+.menu_wrapper{
+    background-color: rgb(24, 24, 24);
+    padding: 8px 0;
+}
+.menu_wrapper .navbar-brand img{
+    width: 250px;   
+}
+
+.nav-link{
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+.nav-link:hover{
+    color: dodgerblue;
+}
+.nav-link:active{
+    color: dodgerblue;
+}
+.nav-link:focus{
+    color: dodgerblue;
+
+}
+.slick-prev:before,
+.slick-next:before{
+  color:tomato !important;
+}
